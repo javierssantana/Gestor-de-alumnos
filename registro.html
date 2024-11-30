@@ -1,0 +1,61 @@
+<HTML>
+    <H1>
+    <TITLE>Manipulando una BD</TITLE>
+    <CENTER>Manejando BD de Alumnos</CENTER>
+    <BR>
+    <FORM METHOD="post" ACTION="registro.php">
+    <BR>
+    <TABLE ALIGN="CENTER">
+    <TR>
+      <TD>No. de Cta.</TD>
+      <TD><INPUT TYPE="text" NAME="no_cuenta" SIZE="10" VALUE= ""></TD>
+    </TR>
+    
+    <TR>
+      <TD>Nombre:</TD>
+      <TD><INPUT TYPE="text" NAME="nombre" SIZE="40" VALUE= ""></TD>
+    </TR>
+    
+    <TR>
+      <TD>Apellido Paterno:</TD>
+      <TD><INPUT TYPE="text" NAME="apat" SIZE="40" VALUE= ""></TD>
+    </TR>
+    <TR>
+      <TD>Apellido Materno:</TD>
+      <TD><INPUT TYPE="text" NAME="amat" SIZE="40" VALUE= ""></TD>
+    </TR>
+    <TR>
+      <TD>Edad:</TD>
+      <TD><INPUT TYPE="text" NAME="edad" SIZE="3" VALUE= ""></TD>
+    </TR>
+    <TR>
+      <TD>Materia:</TD>
+      <TD>
+        <SELECT SIZE="1" NAME="materia">
+        <OPTION SELECTED VALUE="Informatica">Informatica</OPTION>
+        <OPTION VALUE="Redes">Redes</OPTION>
+        <OPTION VALUE="Bases de Datos">Bases de Datos</OPTION>
+        <OPTION VALUE="Programacion">Programacion</OPTION>
+        </SELECT>
+      </TD>
+    </TR>
+    <TR>
+    <TD>Cual es tu turno?</TD>
+    <TD>Matutino<INPUT TYPE = "radio" VALUE="matutino" checked NAME="turno">
+        Vespertino<INPUT TYPE= "radio" NAME="turno" VALUE="vespertino">
+    </TD>
+    </TR>
+    
+    <TR>
+        <TD>Comentarios</TD>
+        <TD><textarea rows="5" NAME="comentarios" cols="31"></textarea></TD>
+    </TR>
+    
+    <TR>
+        <TD><INPUT TYPE="submit" VALUE="Insertar" NAME="ok">
+        <INPUT TYPE="reset" VALUE="Borrar" NAME="B2"></TD>
+    </TR>
+    
+    </TABLE>
+    </FORM>
+    </HTML>
